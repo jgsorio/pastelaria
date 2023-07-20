@@ -10,6 +10,17 @@ Acesse o diretório onde baixou o projeto e em seguida digite o comando para bai
 
 `composer install`
 
+Renomeie o arquivo .env.example para .env
+
+Substitua as informações do banco de dados para as seguintes abaixo:
+
+DB_CONNECTION=mysql <br>
+DB_HOST=mysql <br>
+DB_PORT=3306 <br>
+DB_DATABASE=pastelaria <br>
+DB_USERNAME=sail <br>
+DB_PASSWORD=password <br>
+
 Logo após a conclusão da instalação das dependências, digite o seguinte comando para subir os containers do projeto.
 
 `./vendor/bin/sail up -d`
