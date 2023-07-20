@@ -29,7 +29,8 @@ class SendOrderToMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Send Order To Mail',
+            subject: 'Resumo da Compra',
+            from: 'naoresponda@larastel.com.br'
         );
     }
 
